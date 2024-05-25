@@ -70,6 +70,8 @@ textarea{
   resize: none;
   padding: 1em;
   height: 70px;
+  background-color: transparent;
+  color: white;
 }
 
 button {
@@ -83,6 +85,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   overflow: none;
+  color: white;
 }
 button:hover {
   border-color: #646cff;
