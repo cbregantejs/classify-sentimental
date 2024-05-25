@@ -30,7 +30,11 @@ export function submitForm(comment: string) {
           <a href="" class="back-link">Nuevo comentario</a>
         `;
       }else{
-        alert('Censuramos  la libertad de expresión')
+        if (response === 'NEGATIVO') {
+          alert('Censuramos  la libertad de expresión')
+        }else{
+          alert(data.response);        
+        }
       }
     })
     .catch(error => {
